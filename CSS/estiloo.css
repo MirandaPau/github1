@@ -1,0 +1,541 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#d1a3c2;
+    font-family: 'Lora', serif;
+}
+
+/* Estilos para el header */
+.header {
+    background-color: #810748; /* Ajusta el color de fondo según tus necesidades */
+    padding: 20px; /* Ajusta el espaciado según tus necesidades */
+    height: 100px; /* Puedes establecer un alto para el header si es necesario */
+    font-family: 'Lora', serif;
+   
+}
+
+/* Estilos para el logo */
+.logo {
+    float: left;
+  
+}
+
+.logo img {
+    height: 70px;
+    width: 100px;
+    border-radius: 20px;
+
+}
+
+/* Estilos para el menú de navegación */
+.nav {
+    float: right; 
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-left: 30px; /* Ajusta el espaciado entre elementos del menú según tus necesidades */
+}
+
+.nav a {
+    text-decoration: none;
+    color: white; /* Ajusta el color del texto según tus necesidades */
+    font-size: 16px; /* Ajusta el tamaño de fuente según tus necesidades */
+    font-weight: bold; /* Ajusta el peso de la fuente según tus necesidades */
+    transition: color 0.3s ease; /* Transición de color durante 0.3 segundos al pasar el ratón */
+    border-radius: 50%; /* Hace que el enlace tenga forma de círculo */
+    text-align: center;   
+}
+
+.nav a:hover { 
+    color: #d1a3c2;
+    /*Agregue estilos*/
+    color: rgb(255, 0, 212);
+    border-radius: 30px;
+}
+
+/*MAIN*/
+.contenedor {
+    overflow: hidden;
+}
+
+.imagenprin img {
+    height: 500px;
+    width: 500px;
+    float: left;
+    margin: 30px auto 30px 200px;
+}
+
+.texto {
+    float: right;
+    margin-top: 30px; /* Ajusta el margen superior según tus necesidades */
+}
+
+.texto p {
+    font-size: 36px;
+    padding: 3px;
+}
+
+.texto aside .texto2 {
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
+.texto aside {
+    margin-right: 100px; /* Ajusta el margen derecho según tus necesidades */
+    margin-top: 170px;
+    font-family: 'Cinzel', serif;
+}
+
+.contenedor2 {
+
+    background-color:#F3D3E4;
+    overflow: hidden; /* Clearfix para contener elementos flotantes */
+}
+
+.imagen2 img {
+    height: 250px;
+    width: 300px;
+    float: right; /* Flota la imagen a la derecha */
+    margin: 30px 200px 30px auto; /* Ajusta los márgenes según tus necesidades */
+    border-radius: 4px;
+}
+
+.texto2 {
+    overflow: hidden; /* Clearfix para contener elementos flotantes */
+}
+
+.texto2 p {
+    font-size: 20px;
+    padding: 1px;
+    display: block;
+    text-align: justify; /* Justifica el texto */
+    margin-bottom: 2px; /* Ajusta el espacio entre los párrafos según tus necesidades */
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Cinzel', serif;
+    
+}
+
+.titulo {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Cinzel', serif;
+}
+
+.imagen3 img{
+    height: 250px;
+    width: 300px;
+    float: right; /* Flota la imagen a la derecha */
+    margin: 30px 200px 30px auto; /* Ajusta los márgenes según tus necesidades */
+    border-radius: 4px; 
+    
+}
+
+.imagen4 img{
+    height: 250px;
+    width: 300px;
+    float: right; /* Flota la imagen a la derecha */
+    margin: 30px 20px 30px auto; /* Ajusta los márgenes según tus necesidades */
+    border-radius: 4px; 
+}
+
+.contenedor3 {
+    text-align: center;
+}
+
+.iconos {
+    margin: 0 auto; /* Centra el contenedor de los iconos horizontalmente */
+}
+
+.icono {
+    display: inline-block;
+    margin: 0 20px; /* Agrega un pequeño margen entre los iconos */
+    text-align: center;
+}
+
+h3 {
+    margin-top: 10px; /* Agrega espacio entre la imagen y el título */
+   
+}
+
+.icono img{
+    width: 100px;
+    height: 100px;
+}
+
+.h2{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.contenedor4 {
+    position: relative;
+    text-align: center;
+    color: black; /* Color del texto */
+}
+
+.fondo {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.horarios {
+    position: relative;
+    z-index: 1;
+    padding: 65px; /* Ajusta el espacio interno según tus necesidades */
+    
+}
+
+.titulo {
+    font-size: 26px;
+}
+
+.parrafo {
+    font-size: 18px;
+    margin: 10px 0;
+    line-height: 1.5;
+    padding: auto;
+}
+.horarios p,.parrafo{
+  
+    line-height: 1.5;
+    
+}
+
+/*FOOTER*/
+.contenedor5{
+    background-color: #810748;
+}
+footer {
+    background-color: #810748; /* Ajusta el color de fondo según tus necesidades */
+    color: #fff; /* Color del texto */
+    padding: 20px; /* Ajusta el espaciado interno según tus necesidades */
+    overflow: hidden; /* Para contener elementos flotantes */
+}
+
+.footer1, .footer2 {
+    width: 48%; /* Ajusta el ancho de cada columna según tus necesidades */
+    float: left; /* Aplica el flotado a la izquierda */
+    margin-right: 2%; /* Ajusta el espacio entre columnas según tus necesidades */
+    box-sizing: border-box; /* Asegura que el padding y border no afecten el ancho total */
+}
+
+.footer2{
+    float: right;
+    text-align: right;
+    margin-top: -70px;
+   
+    
+}
+
+
+.footer{
+   
+    width: 200px;
+    height: auto;
+}
+.red img {
+    width: 25px;
+    height: 25px;
+}
+
+.red {
+    float: left;
+    margin-right: 10px; /* Agrega un pequeño margen entre los iconos */
+}
+
+.contactoo {
+    font-size: 18px;
+    padding: 5px;
+}
+
+.p {
+    margin: 5px 0;
+}
+
+.red img{
+    width: 25px;
+    height: 25px;
+}
+
+
+.contactoo{
+    margin-top: 20px;
+}
+
+.tituloglam{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+/*SERVICIOS*/
+
+/*Main*/
+.h1{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-family: 'Cinzel', serif;
+}
+.servicios1 {
+    width: 500px; /* Ancho del contenedor */
+    height: auto; /* Altura del contenedor, ajustada automáticamente al contenido */
+    display: inline-block;
+    text-align: center; /* Alineación del contenido al centro */
+    margin-bottom: 20px; /* Espacio entre los cuadrados */
+    background-color: #F8E3EE;
+    margin-left: 20px;
+    border: 2px solid rgb(235, 105, 170);
+    
+}
+.social-media{
+    width: 500px; /* Ancho del contenedor */
+    height: auto; /* Altura del contenedor, ajustada automáticamente al contenido */
+    display: inline-block;
+    text-align: center; /* Alineación del contenido al centro */
+    margin-bottom: 20px; /* Espacio entre los cuadrados */
+   
+}
+/* Estilos para títulos */
+.h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+/* Estilos para descripciones */
+.articule p {
+    text-align: center;
+    line-height: 1.5; /* Espacio entre líneas */
+    font-family: 'Lora', serif;
+
+}
+
+/* Ajustes para el título */
+.tituloprin {
+    border: 2px solid blue;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.titulofotos{
+    display: inline;
+    width: 500px; /* Ancho del contenedor */
+    height: auto; /* Altura del contenedor, ajustada automáticamente al contenido */
+}
+
+/* Selecciona el h2 dentro de la clase .social-media */
+ .titulofotos .glam {
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Selecciona el párrafo dentro de la clase .social-media */
+ .titulofotos .relleno p {
+   text-align: center;
+}
+
+.imagenuña1 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 90px;
+    margin-bottom: 20px;
+}
+
+.imagenuña1 {
+    display: inline-block;
+    margin-right: 5px; /* Ajusta el espacio entre las imágenes según tus necesidades */
+}
+
+/*CONTACTO*/
+
+/*MAIN*/
+
+.marco{
+    height: 650px;
+    width: 1000px;
+    margin: 20px auto;  
+    background-color:#E59BC2;
+    border: 2px solid #CB3A87;
+}
+
+.contacto-uñas{
+    float: left; /* Flota a la izquierda */
+    width: 40%; /* Ancho del 45% para dejar espacio al formulario */
+}
+
+.contacto-uñas .seccion1{
+    
+    width: 500px;
+    height: 500px;
+}
+.contacto-uñas .seccion1 img{
+    width: 250px;
+    height: 300px;
+    margin-left: 140px;
+    margin-top: 70px;
+}
+.contacto-uñas article h1 {
+    font-family: 'Cinzel', serif;
+    margin-top: 60px;
+    margin-bottom: 10px; /* Ajusta el margen inferior según tus necesidades */
+    margin-left: 140px;
+    font-size: 36px;
+    display: inline-block;
+    color: black;
+}
+
+.contacto-uñas article p {
+    
+    margin-top: 10px; /* Ajusta el margen superior según tus necesidades */
+    margin-left: 165px;
+    font-size: 18px;
+    display: block;
+    color: black;
+  
+}
+form {
+    max-width: 400px;
+    margin: 0 auto; 
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 100%;/* Establece el ancho al 100% para que se extiendan por completo en su contenedor */
+    padding: 8px;/* Agrega un espacio interno de 8 píxeles alrededor del contenido */
+    margin-bottom: 10px; /* Agrega un espacio en la parte inferior de 10 píxeles para separar elementos verticalmente */
+   
+    
+}
+.formulario h2{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: 'Lora', serif;
+}
+
+.formulario {
+    float: right; /* Flota a la derecha */
+    width: 45%; /* Ancho del 45% para dejar espacio al contacto */
+}
+
+/*NOSOTROS*/
+
+/*MAIN*/
+
+.cuadro-mayor {
+   
+    overflow: hidden;
+}
+
+.cuadro-mayor img {
+    width: 470px;
+    height: 470px;
+    margin-left: 140px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.imagen-izq {
+    width: 45%;
+    float: left;
+}
+
+.texto-derecho {
+    width: 45%;
+    float: right;
+    margin-top: 20px; /* Ajusta el espacio superior */
+    margin-right: 60px; /* Ajusta el espacio derecho */
+    margin-left: 20px; /* Ajusta el espacio izquierdo */
+    padding: 50px; /* Añade padding para reducir el espacio interno si es necesario */
+}
+
+.texto-derecho .txt-derecho h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Cinzel', serif;
+}
+
+.texto-derecho .txt-derecho p {
+    text-align: center;
+    line-height: 3.0;
+    font-family: 'Cinzel', serif;
+}
+
+/*NUESTRO EQUIPO*/
+
+/*MAIN*/
+
+.containerr{
+ 
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+}
+
+.containerr .persona1{
+    
+    width: 500px;
+    height:auto;
+    background-color:#E59BC2;
+    float: left; /* Flota la primera persona a la izquierda */
+
+    margin:20px 20px 12px 4px;
+}
+
+.persona1 article img{
+    margin-top: 30px;
+    margin-left: 50px;
+   margin-bottom: 10px;
+}
+
+.persona1 article .parrafo-titulo {
+    text-align: center;
+    font-size: 18px;
+}
+
+.persona1 article p{
+    text-align: center;
+    font-size: 16px;
+    padding: 20px;
+    line-height: 1.5;
+    
+}
+.persona1 article h1{
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
