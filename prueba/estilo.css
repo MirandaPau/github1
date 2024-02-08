@@ -1,0 +1,200 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#d1a3c2;
+    font-family: 'Lora', serif;
+}
+
+/*header*/
+
+.fondo{
+    background-color: #810748;
+}
+.img_logo{
+    width: 100px;
+    height: 80px;
+    border-radius: 5px;
+    margin-left: 60px;
+}
+
+.header {
+   
+    border:2px solid red;
+  }
+
+.navbar-nav .color {
+    color: white;
+  }
+ 
+  .navbar_style{
+    border:2px solid red;
+    margin-right: 50px;
+  }
+  
+
+
+    /*MAIN*/
+/*seccion1*/
+
+  /* Estilos generales */
+.seccion1 {
+    height: 50vh;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "principal";
+  }
+  
+  .principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: principal;
+    position: relative;
+  }
+  
+  .fondo1 {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.60;
+  }
+  
+  .contenido-texto {
+    z-index: 1;
+    align-items: flex-start;
+    
+  }
+  
+  .parrafo {
+    font-size: 2rem;
+    color: rgb(180, 17, 99);
+    font-family: 'Lora', serif;
+  }
+  
+  .text {
+    font-size: 1.2rem;
+    color: rgb(180, 17, 99);
+    font-family: 'Lora', serif;
+    
+  }
+  
+  /* Media query para pantallas pequeñas */
+  @media (max-width: 768px) {
+     .parrafo {
+      font-size: 1.5rem; /* Ajusta el tamaño de la fuente */
+    }
+    
+    .fondo1 {
+      margin-left:0px; /* Ajusta el margen de la imagen */
+    }
+    
+  }
+   
+  
+/*SECCION2*/
+
+.seccion2{
+    background-color: #c485b6;
+   
+    
+}
+.card{
+    background-color: transparent;
+}
+
+
+.h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.servicios {
+    margin: 5rem 0;
+  }
+  
+ .servicios .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+ .servicios .col {
+    margin: 0 1rem;
+
+    background-color: #c485b6;
+  }
+  
+  .servicios .card-img-top {
+    max-width: 100%;
+    height: auto;
+  
+  }
+  
+ .servicios .card-body {
+    padding: 1rem;
+  }
+
+  .img_servicios {
+    width: 20%;
+    height: 20%;
+    object-fit: contain;
+    margin: 0 auto;
+   
+    
+  }
+
+  .card-img-top {
+    width: 20%;
+    height: 20%;
+    background-color: transparent; 
+    margin-top: 5px;
+    margin-left: 180px;
+    
+    
+  }
+
+.borde_rosa{
+    border-color: #c485b6;
+}
+
+.titulo_servicios {
+    font-size: 24px;
+    font-weight: bold;
+    color: #810748;
+  }
+
+  /*Seccion3*/
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

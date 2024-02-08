@@ -8,16 +8,187 @@ body{
     font-family: 'Lora', serif;
 }
 
-/* Estilos para el header */
-.header {
-    background-color: #810748; /* Ajusta el color de fondo según tus necesidades */
-    padding: 20px; /* Ajusta el espaciado según tus necesidades */
-    height: 100px; /* Puedes establecer un alto para el header si es necesario */
-    font-family: 'Lora', serif;
-   
+/*Nuevo header*/
+
+/*header*/
+
+.fondo-menu{
+    background-color: #810748;
+}
+.img_logo{
+    width: 100px;
+    height: 80px;
+    border-radius: 5px;
+    margin-left: 60px;
 }
 
-/* Estilos para el logo */
+
+
+.navbar-nav .color {
+    color: white;
+  }
+ 
+  .navbar_style{
+   
+    margin-right: 50px;
+  }
+
+/*NUEVO MAIN*/
+/*seccion1*/
+
+  /* Estilos generales */
+  .seccion1 {
+    height: 50vh;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "principal";
+  }
+  
+  .principal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: principal;
+    position: relative;
+  }
+  
+  .fondo1 {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.60;
+  }
+  
+  .contenido-texto {
+    z-index: 1;
+    align-items: flex-start;
+    
+  }
+  
+  .parrafo {
+    font-size: 2rem;
+    color: rgb(180, 17, 99);
+    font-family: 'Lora', serif;
+  }
+  
+  .text {
+    font-size: 1.2rem;
+    color: rgb(180, 17, 99);
+    font-family: 'Lora', serif;
+    
+  }
+
+
+
+
+  /*SECCION2*/
+
+.seccion2{
+    background-color: #c485b6;
+   
+    
+}
+.card{
+    background-color: transparent;
+}
+
+
+.h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.servicios {
+    margin: 5rem 0;
+  }
+  
+ .servicios .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+ .servicios .col {
+    margin: 0 1rem;
+
+    background-color: #c485b6;
+  }
+  
+  .servicios .card-img-top {
+    max-width: 100%;
+    height: auto;
+  
+  }
+  
+ .servicios .card-body {
+    padding: 1rem;
+  }
+
+  .img_servicios {
+    width: 20%;
+    height: 20%;
+    object-fit: contain;
+    margin: 0 auto;
+   
+    
+  }
+
+  .card-img-top {
+    width: 20%;
+    height: 20%;
+    background-color: transparent; 
+    margin-top: 5px;
+    margin-left: 180px;
+    
+    
+  }
+
+.borde_rosa{
+    border-color: #c485b6;
+}
+
+.titulo_servicios {
+    font-size: 24px;
+    font-weight: bold;
+    color: #810748;
+  }
+
+  
+  /* Media query para pantallas pequeñas */
+  @media (max-width: 768px) {
+     .parrafo {
+      font-size: 1.5rem; /* Ajusta el tamaño de la fuente */
+    }
+    
+    .fondo1 {
+      margin-left:0px; /* Ajusta el margen de la imagen */
+    }
+    
+  }
+
+
+
+/* Estilos para el header 
+.header {
+    background-color: #810748; 
+    padding: 20px; 
+    height: 100px; 
+    font-family: 'Lora', serif;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    
+    
+}/*
+
+/* Estilos para el logo 
 .logo {
     float: left;
   
@@ -28,9 +199,9 @@ body{
     width: 100px;
     border-radius: 20px;
 
-}
+}/*
 
-/* Estilos para el menú de navegación */
+/* Estilos para el menú de navegación 
 .nav {
     float: right; 
 }
@@ -39,33 +210,34 @@ body{
     list-style-type: none;
     margin: 0;
     padding: 0;
+    display: flex;
 }
 
 .nav li {
     display: inline-block;
     margin-right: 30px;
     margin-top: 30px;
-    margin-left: 30px; /* Ajusta el espaciado entre elementos del menú según tus necesidades */
+    margin-left: 30px; 
 }
 
 .nav a {
     text-decoration: none;
-    color: white; /* Ajusta el color del texto según tus necesidades */
-    font-size: 16px; /* Ajusta el tamaño de fuente según tus necesidades */
-    font-weight: bold; /* Ajusta el peso de la fuente según tus necesidades */
-    transition: color 0.3s ease; /* Transición de color durante 0.3 segundos al pasar el ratón */
-    border-radius: 50%; /* Hace que el enlace tenga forma de círculo */
-    text-align: center;   
+    color: white; 
+    font-size: 18px; 
+    font-weight: bold; 
+    transition: color 0.3s ease; 
+    border-radius: 50%;
+    text-align: center;  
+   
 }
 
 .nav a:hover { 
     color: #d1a3c2;
-    /*Agregue estilos*/
     color: rgb(255, 0, 212);
     border-radius: 30px;
-}
+}*/
 
-/*MAIN*/
+/*MAIN
 .contenedor {
     overflow: hidden;
 }
@@ -79,7 +251,7 @@ body{
 
 .texto {
     float: right;
-    margin-top: 30px; /* Ajusta el margen superior según tus necesidades */
+    margin-top: 30px; 
 }
 
 .texto p {
@@ -94,7 +266,7 @@ body{
 }
 
 .texto aside {
-    margin-right: 100px; /* Ajusta el margen derecho según tus necesidades */
+    margin-right: 100px; 
     margin-top: 170px;
     font-family: 'Cinzel', serif;
 }
@@ -102,27 +274,27 @@ body{
 .contenedor2 {
 
     background-color:#F3D3E4;
-    overflow: hidden; /* Clearfix para contener elementos flotantes */
+    overflow: hidden; /
 }
 
 .imagen2 img {
     height: 250px;
     width: 300px;
-    float: right; /* Flota la imagen a la derecha */
-    margin: 30px 200px 30px auto; /* Ajusta los márgenes según tus necesidades */
+    float: right; 
+    margin: 30px 200px 30px auto; 
     border-radius: 4px;
 }
 
 .texto2 {
-    overflow: hidden; /* Clearfix para contener elementos flotantes */
+    overflow: hidden; 
 }
 
 .texto2 p {
     font-size: 20px;
     padding: 1px;
     display: block;
-    text-align: justify; /* Justifica el texto */
-    margin-bottom: 2px; /* Ajusta el espacio entre los párrafos según tus necesidades */
+    text-align: justify; 
+    margin-bottom: 2px; 
     text-align: center;
     margin-top: 15px;
     font-family: 'Cinzel', serif;
@@ -139,8 +311,8 @@ body{
 .imagen3 img{
     height: 250px;
     width: 300px;
-    float: right; /* Flota la imagen a la derecha */
-    margin: 30px 200px 30px auto; /* Ajusta los márgenes según tus necesidades */
+    float: right; 
+    margin: 30px 200px 30px auto; 
     border-radius: 4px; 
     
 }
@@ -148,8 +320,8 @@ body{
 .imagen4 img{
     height: 250px;
     width: 300px;
-    float: right; /* Flota la imagen a la derecha */
-    margin: 30px 20px 30px auto; /* Ajusta los márgenes según tus necesidades */
+    float: right; 
+    margin: 30px 20px 30px auto; 
     border-radius: 4px; 
 }
 
@@ -158,17 +330,17 @@ body{
 }
 
 .iconos {
-    margin: 0 auto; /* Centra el contenedor de los iconos horizontalmente */
+    margin: 0 auto; 
 }
 
 .icono {
     display: inline-block;
-    margin: 0 20px; /* Agrega un pequeño margen entre los iconos */
+    margin: 0 20px; 
     text-align: center;
 }
 
 h3 {
-    margin-top: 10px; /* Agrega espacio entre la imagen y el título */
+    margin-top: 10px; 
    
 }
 
@@ -185,7 +357,7 @@ h3 {
 .contenedor4 {
     position: relative;
     text-align: center;
-    color: black; /* Color del texto */
+    color: black;
 }
 
 .fondo {
@@ -200,7 +372,7 @@ h3 {
 .horarios {
     position: relative;
     z-index: 1;
-    padding: 65px; /* Ajusta el espacio interno según tus necesidades */
+    padding: 65px; 
     
 }
 
@@ -218,7 +390,7 @@ h3 {
   
     line-height: 1.5;
     
-}
+}*/
 
 /*FOOTER*/
 .contenedor5{
