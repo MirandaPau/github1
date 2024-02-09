@@ -268,6 +268,62 @@ body{
     font-family: 'Cinzel', serif;
 }
 
+/*Servicios*/
+
+/*main  nuevo*/
+
+.h1-servicios{
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Cinzel', serif;
+}
+
+.fondo-servicios{
+    background-color: #FCF4F8;
+}
+
+.l{
+    border:2px solid palevioletred
+}
+
+/*galeria*/
+.h1-galeria{
+    font-weight: 400;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 40px;
+}
+.linea{
+    background-color: #550b51;
+    height: 5px;
+    width: 100%;
+    display: block;
+   
+}
+
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-auto-rows: 250px;
+    margin: 10px;
+    gap:10px
+}
+
+.galeria img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.galeria a:hover img{
+    transform: translateY(-10px) scale(1.1);
+}
+
+
+
+
   @media (max-width: 768px) {
     .footer-links{
       width: 50%;  
@@ -665,9 +721,9 @@ footer {
     margin-right: 5px; 
 }*/
 
-/*CONTACTO*/
+/*CONTACTO
 
-/*MAIN*/
+
 
 .marco{
     height: 650px;
@@ -737,13 +793,12 @@ input, select {
 }
 
 .formulario {
-    float: right; /* Flota a la derecha */
-    width: 45%; /* Ancho del 45% para dejar espacio al contacto */
-}
+    float: right; 
+    width: 45%; 
 
-/*NOSOTROS*/
+/*NOSOTROS
 
-/*MAIN*/
+
 
 .cuadro-mayor {
    
@@ -766,10 +821,10 @@ input, select {
 .texto-derecho {
     width: 45%;
     float: right;
-    margin-top: 20px; /* Ajusta el espacio superior */
-    margin-right: 60px; /* Ajusta el espacio derecho */
-    margin-left: 20px; /* Ajusta el espacio izquierdo */
-    padding: 50px; /* Añade padding para reducir el espacio interno si es necesario */
+    margin-top: 20px; 
+    margin-right: 60px; 
+    margin-left: 20px; 
+    padding: 50px;
 }
 
 .texto-derecho .txt-derecho h1 {
