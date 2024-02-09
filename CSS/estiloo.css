@@ -29,10 +29,7 @@ body{
     color: white;
   }
  
-  .navbar_style{
-   
-    margin-right: 50px;
-  }
+ 
 
 /*NUEVO MAIN*/
 /*seccion1*/
@@ -254,8 +251,23 @@ body{
   }
   
   
+/*NUESTRO EQUIPO*/
+/*main nuevo*/
 
-  
+.fondo-card{
+    background-color: rgb(224, 165, 224);
+}  
+
+.seccion-staff{
+    background-image:  url("../FOTOS/fondone3.jpg");
+   
+}
+.h2-titulo{
+    font-size: 38px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+
   @media (max-width: 768px) {
     .footer-links{
       width: 50%;  
@@ -576,7 +588,7 @@ footer {
 /*
 /*SERVICIOS*/
 
-/*Main*/
+/*Main
 .h1{
     text-align: center;
     margin-bottom: 20px;
@@ -584,40 +596,40 @@ footer {
     font-family: 'Cinzel', serif;
 }
 .servicios1 {
-    width: 500px; /* Ancho del contenedor */
-    height: auto; /* Altura del contenedor, ajustada automáticamente al contenido */
+    width: 500px; 
+    height: auto; 
     display: inline-block;
-    text-align: center; /* Alineación del contenido al centro */
-    margin-bottom: 20px; /* Espacio entre los cuadrados */
+    text-align: center;
+    margin-bottom: 20px; 
     background-color: #F8E3EE;
     margin-left: 20px;
     border: 2px solid rgb(235, 105, 170);
     
 }
 .social-media{
-    width: 500px; /* Ancho del contenedor */
-    height: auto; /* Altura del contenedor, ajustada automáticamente al contenido */
+    width: 500px; 
+    height: auto; 
     display: inline-block;
-    text-align: center; /* Alineación del contenido al centro */
-    margin-bottom: 20px; /* Espacio entre los cuadrados */
+    text-align: center; 
+    margin-bottom: 20px; 
    
 }
-/* Estilos para títulos */
+
 .h2 {
     text-align: center;
     margin-bottom: 10px;
     margin-top: 15px;
 }
 
-/* Estilos para descripciones */
+
 .articule p {
     text-align: center;
-    line-height: 1.5; /* Espacio entre líneas */
+    line-height: 1.5; 
     font-family: 'Lora', serif;
 
 }
 
-/* Ajustes para el título */
+
 .tituloprin {
     border: 2px solid blue;
     margin-bottom: 10px;
@@ -626,17 +638,17 @@ footer {
 
 .titulofotos{
     display: inline;
-    width: 500px; /* Ancho del contenedor */
-    height: auto; /* Altura del contenedor, ajustada automáticamente al contenido */
+    width: 500px; 
+    height: auto; 
 }
 
-/* Selecciona el h2 dentro de la clase .social-media */
+
  .titulofotos .glam {
     text-align: center;
     margin-top: 15px;
 }
 
-/* Selecciona el párrafo dentro de la clase .social-media */
+
  .titulofotos .relleno p {
    text-align: center;
 }
@@ -650,8 +662,8 @@ footer {
 
 .imagenuña1 {
     display: inline-block;
-    margin-right: 5px; /* Ajusta el espacio entre las imágenes según tus necesidades */
-}
+    margin-right: 5px; 
+}*/
 
 /*CONTACTO*/
 
@@ -666,8 +678,8 @@ footer {
 }
 
 .contacto-uñas{
-    float: left; /* Flota a la izquierda */
-    width: 40%; /* Ancho del 45% para dejar espacio al formulario */
+    float: left; 
+    width: 40%; 
 }
 
 .contacto-uñas .seccion1{
@@ -684,7 +696,7 @@ footer {
 .contacto-uñas article h1 {
     font-family: 'Cinzel', serif;
     margin-top: 60px;
-    margin-bottom: 10px; /* Ajusta el margen inferior según tus necesidades */
+    margin-bottom: 10px; 
     margin-left: 140px;
     font-size: 36px;
     display: inline-block;
@@ -693,7 +705,7 @@ footer {
 
 .contacto-uñas article p {
     
-    margin-top: 10px; /* Ajusta el margen superior según tus necesidades */
+    margin-top: 10px; 
     margin-left: 165px;
     font-size: 18px;
     display: block;
@@ -711,9 +723,9 @@ label {
 }
 
 input, select {
-    width: 100%;/* Establece el ancho al 100% para que se extiendan por completo en su contenedor */
-    padding: 8px;/* Agrega un espacio interno de 8 píxeles alrededor del contenido */
-    margin-bottom: 10px; /* Agrega un espacio en la parte inferior de 10 píxeles para separar elementos verticalmente */
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px; 
    
     
 }
@@ -775,7 +787,7 @@ input, select {
 
 /*NUESTRO EQUIPO*/
 
-/*MAIN*/
+/*MAIN
 
 .containerr{
  
@@ -789,7 +801,7 @@ input, select {
     width: 500px;
     height:auto;
     background-color:#E59BC2;
-    float: left; /* Flota la primera persona a la izquierda */
+    float: left; 
 
     margin:20px 20px 12px 4px;
 }
@@ -816,7 +828,7 @@ input, select {
     text-align: center;
     font-size: 20px;
     
-}
+}*/
 
 
 
