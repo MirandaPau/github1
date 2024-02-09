@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    list-style: none;
 }
 body{
     background:#d1a3c2;
@@ -84,12 +85,9 @@ body{
     
   }
 
-
-
-
   /*SECCION2*/
 
-.seccion2{
+  .seccion2{
     background-color: #c485b6;
    
     
@@ -160,19 +158,137 @@ body{
     color: #810748;
   }
 
+    /*SECCION3*/
+
+
+.seccion3 {
+    
+        height: 65vh;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: "principal-horarios";
+      }
+      
+.principal-horarios {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        grid-area: principal-horarios;
+        position: relative;
+        z-index: 1;
+      }
+      
+
+.parrafo-horarios {
+        font-size: 18px;
+        color: rgb(3, 0, 2);
+        font-family: 'Lora', serif;
+        text-align: center;
+        margin-top: 0;
+      }
+      
+.titulo-horarios {
+        font-size: 1.2rem;
+        color: rgb(0, 0, 0);
+        font-family: 'Lora', serif;
+        text-align: center;
+        margin-bottom: 1rem;
+      }
+
+
+/*NUEVA FOOTER*/
+
+
+.containerr{
+    max-width: 1200px;
+    margin:0 auto;
+    padding: 0 80px;
+  }
+  .footer{
+    background-color: #810748;
+    padding: 0 20px;
+  }
+  .footer-row{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-links{
+    width: 33.33%; /* Ajusta el ancho de las columnas de enlaces de pie de página */
+    
+  }
+  .footer-links h4{
+    font-size: 20px;
+    color: white;
+    margin-bottom: 25px;
+    font-weight: 500;
+    border-bottom: 2px solid rgb(192, 63, 186);
+    display: inline-block;
+    padding: 0 60px;
+    margin-top: 10px;
+  }
+  .footer-links ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 15px;
+    transition:  all .3 ease;
+    
+  }
+  .footer-links ul li a:hover{
+    color: aqua;
+    padding-left: 6px;
+  }
+  .social-links a {
+    display: inline-block;
+    min-height: 40px;
+    background-color: #810748;
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: aqua;
+    transition:  all .5 ease;
+    border: 2px solid green;
+  }
   
+  
+
+  
+  @media (max-width: 768px) {
+    .footer-links{
+      width: 50%;  
+    }
+  }
+
+
   /* Media query para pantallas pequeñas */
   @media (max-width: 768px) {
      .parrafo {
-      font-size: 1.5rem; /* Ajusta el tamaño de la fuente */
+      font-size: 1.5rem; 
     }
     
     .fondo1 {
-      margin-left:0px; /* Ajusta el margen de la imagen */
+      margin-left:0px; 
+    }
+    .seccion1{
+        max-width: 100%;
     }
     
   }
 
+  /*media*/
+  @media  (max-width : 991px) {
+    .footer-row{
+        text-align: center;
+    }
+
+    .footer-links{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+  }
 
 
 /* Estilos para el header 
@@ -392,22 +508,22 @@ h3 {
     
 }*/
 
-/*FOOTER*/
+/*FOOTER
 .contenedor5{
     background-color: #810748;
 }
 footer {
-    background-color: #810748; /* Ajusta el color de fondo según tus necesidades */
-    color: #fff; /* Color del texto */
-    padding: 20px; /* Ajusta el espaciado interno según tus necesidades */
-    overflow: hidden; /* Para contener elementos flotantes */
+    background-color: #810748; 
+    color: #fff; 
+    padding: 20px; 
+    overflow: hidden; 
 }
 
 .footer1, .footer2 {
-    width: 48%; /* Ajusta el ancho de cada columna según tus necesidades */
-    float: left; /* Aplica el flotado a la izquierda */
-    margin-right: 2%; /* Ajusta el espacio entre columnas según tus necesidades */
-    box-sizing: border-box; /* Asegura que el padding y border no afecten el ancho total */
+    width: 48%; 
+    float: left; 
+    margin-right: 2%; 
+    box-sizing: border-box; 
 }
 
 .footer2{
@@ -431,7 +547,7 @@ footer {
 
 .red {
     float: left;
-    margin-right: 10px; /* Agrega un pequeño margen entre los iconos */
+    margin-right: 10px; 
 }
 
 .contactoo {
@@ -457,7 +573,7 @@ footer {
     margin-top: 10px;
     margin-bottom: 15px;
 }
-
+/*
 /*SERVICIOS*/
 
 /*Main*/
