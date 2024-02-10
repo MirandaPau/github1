@@ -361,8 +361,30 @@ body{
     text-align: center;
   }
 
+/*Contactos*/
+/*nuevo main*/
+.main-contactos{
+    background-color: #deb1e9;
+    
+}
 
+.h2-contactos{
+    text-align: center;
+    font-family: 'Cinzel', serif;
+  
+}
 
+.container-contactos {
+    color: black;
+    font-size: 18px;
+    padding: 10px;
+    max-width: 800px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #36A0FF;
+}
  
 
   /* Media query para pantallas pequeñas */
@@ -389,7 +411,12 @@ body{
         margin: 10px;
         gap:10px
     }
-    
+    .txt-derecho {
+        padding: 20px;
+        color: white;
+        border-radius: 10px;
+        font-family: 'Cinzel', serif;
+      }
    
     /*.container {
         padding: 0 20px;
