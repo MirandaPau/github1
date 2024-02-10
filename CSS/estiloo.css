@@ -23,8 +23,16 @@ body{
     margin-left: 60px;
 }
 
+header nav a:hover {
+    background-color: #ee8cd0;
+   
+  }
 
-
+  header .img_logo:hover {
+    transform: scale(1.1);
+  }
+  
+ 
 .navbar-nav .color {
     color: white;
   }
