@@ -37,4 +37,55 @@ header.header nav.navbar.navbar-expand-sm.fondo-menu .navbar-collapse#opciones u
   background-color: #ee8cd0;
 }
 
+.containerr {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 80px;
+}
+
+.footer {
+  background-color: #810748;
+  padding: 0 20px;
+}
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-links {
+  width: 33.33%;
+}
+.footer-links h4 {
+  font-size: 20px;
+  color: white;
+  margin-bottom: 25px;
+  font-weight: 500;
+  border-bottom: 2px solid rgb(192, 63, 186);
+  display: inline-block;
+  padding: 0 60px;
+  margin-top: 10px;
+}
+.footer-links ul li a {
+  font-size: 18px;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 15px;
+  transition: all 0.3s ease;
+}
+.footer-links ul li a:hover {
+  color: aqua;
+  padding-left: 6px;
+}
+.footer .social-links a {
+  display: inline-block;
+  min-height: 40px;
+  background-color: #810748;
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: aqua;
+  transition: all 0.5s ease;
+  border: 2px solid green;
+}
+
 /*# sourceMappingURL=estilo.css.map */

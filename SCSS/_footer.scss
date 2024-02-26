@@ -1,0 +1,58 @@
+
+// Estilos de la sección "NUEVA FOOTER"
+.containerr {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 80px;
+  }
+  
+  .footer {
+    background-color: $fondo-color;
+    padding: 0 20px;
+  
+    &-row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    &-links {
+      width: 33.33%;
+  
+      h4 {
+        font-size: 20px;
+        color: white;
+        margin-bottom: 25px;
+        font-weight: 500;
+        border-bottom: 2px solid rgb(192, 63, 186);
+        display: inline-block;
+        padding: 0 60px;
+        margin-top: 10px;
+      }
+  
+      ul li a {
+        font-size: 18px;
+        text-decoration: none;
+        display: block;
+        margin-bottom: 15px;
+        transition: all .3s ease;
+  
+        &:hover {
+          color: $link-color;
+          padding-left: 6px;
+        }
+      }
+    }
+  
+    .social-links a {
+      display: inline-block;
+      min-height: 40px;
+      background-color: $fondo-color;
+      margin: 0 10px 10px 0;
+      text-align: center;
+      line-height: 40px;
+      border-radius: 50%;
+      color: $link-color;
+      transition: all .5s ease;
+      border: 2px solid green;
+    }
+  }
