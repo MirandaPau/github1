@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background: #d1a3c2;
+  font-family: "Lora", serif;
+}
+
+header.header nav.navbar.navbar-expand-sm.fondo-menu {
+  background-color: #810748;
+}
+header.header nav.navbar.navbar-expand-sm.fondo-menu .navbar-toggler.collapsed .navbar-toggler-icon {
+  display: none;
+}
+header.header nav.navbar.navbar-expand-sm.fondo-menu .navbar-brand img.img_logo {
+  width: 100px;
+  height: 80px;
+  border-radius: 5px;
+  margin-left: 60px;
+}
+header.header nav.navbar.navbar-expand-sm.fondo-menu .navbar-collapse#opciones ul.navbar-nav.ms-auto.mb-2.mb-lg-0.navbar_style .nav-item a.nav-link.color {
+  color: white;
+}
+header.header nav.navbar.navbar-expand-sm.fondo-menu .navbar-collapse#opciones ul.navbar-nav.ms-auto.mb-2.mb-lg-0.navbar_style .nav-item a.nav-link.color.active, header.header nav.navbar.navbar-expand-sm.fondo-menu .navbar-collapse#opciones ul.navbar-nav.ms-auto.mb-2.mb-lg-0.navbar_style .nav-item a.nav-link.color:hover, header.header nav.navbar.navbar-expand-sm.fondo-menu .navbar-collapse#opciones ul.navbar-nav.ms-auto.mb-2.mb-lg-0.navbar_style .nav-item a.nav-link.color:focus {
+  color: white;
+  background-color: #ee8cd0;
+}
+header.header nav.navbar.navbar-expand-sm.fondo-menu .navbar-collapse#opciones ul.navbar-nav.ms-auto.mb-2.mb-lg-0.navbar_style .nav-item.dropdown .dropdown-toggle.color:hover, header.header nav.navbar.navbar-expand-sm.fondo-menu .navbar-collapse#opciones ul.navbar-nav.ms-auto.mb-2.mb-lg-0.navbar_style .nav-item.dropdown .dropdown-toggle.color:focus {
+  color: white;
+}
+header.header nav.navbar.navbar-expand-sm.fondo-menu .navbar-collapse#opciones ul.navbar-nav.ms-auto.mb-2.mb-lg-0.navbar_style .nav-item.dropdown .dropdown-menu a.dropdown-item:hover, header.header nav.navbar.navbar-expand-sm.fondo-menu .navbar-collapse#opciones ul.navbar-nav.ms-auto.mb-2.mb-lg-0.navbar_style .nav-item.dropdown .dropdown-menu a.dropdown-item:focus {
+  color: white;
+  background-color: #ee8cd0;
+}
+
+/*# sourceMappingURL=estilo.css.map */
