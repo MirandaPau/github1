@@ -90,7 +90,7 @@ header.header nav.navbar.navbar-expand-sm.fondo-menu .navbar-collapse#opciones u
 }
 
 main {
-  /* Media Query para dispositivos de pantalla pequeña */
+  /* Estilos para SECCION3 */
 }
 main .seccion1 {
   height: 50vh;
@@ -156,49 +156,40 @@ main .seccion2 .card .card-body .card-title {
   text-align: center;
 }
 main .seccion3 {
-  height: 65vh;
+  height: 50vh;
   display: grid;
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
-  grid-template-areas: "principal-horarios";
+  grid-template-areas: "principal";
 }
-main .principal-horarios {
+main .seccion3 .principal-horarios {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  grid-area: principal-horarios;
+  grid-area: principal;
   position: relative;
-  z-index: 1;
 }
-main .parrafo-horarios {
-  font-size: 18px;
-  color: rgb(3, 0, 2);
+main .seccion3 .principal-horarios .fondo1 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  opacity: 0.7;
+}
+main .seccion3 .principal-horarios .parrafo,
+main .seccion3 .principal-horarios .text {
   font-family: "Lora", serif;
-  text-align: center;
-  margin-top: 0;
+  color: rgb(180, 17, 99);
 }
-main .titulo-horarios {
+main .seccion3 .principal-horarios .parrafo {
+  font-size: 2rem;
+}
+main .seccion3 .principal-horarios .text {
   font-size: 1.2rem;
-  color: rgb(0, 0, 0);
-  font-family: "Lora", serif;
-  text-align: center;
-  margin-bottom: 1rem;
-}
-@media screen and (max-width: 768px) {
-  main .seccion3 {
-    height: auto; /* Altura automática para que el contenido se ajuste */
-    padding: 20px; /* Agregar relleno para espaciar el contenido en dispositivos pequeños */
-  }
-  main .principal-horarios {
-    text-align: center; /* Centrar el texto en dispositivos pequeños */
-  }
-  main .parrafo-horarios {
-    font-size: 16px; /* Reducir el tamaño del texto en dispositivos pequeños */
-  }
-  main .titulo-horarios {
-    font-size: 1rem; /* Reducir el tamaño del título en dispositivos pequeños */
-  }
 }
 
 .seccion-staff {
@@ -299,6 +290,10 @@ main .titulo-horarios {
   font-size: 18px;
   padding: 10px;
   max-width: 800px;
+  margin: 0 auto; /* Esto centra el contenedor horizontalmente */
+  border: 2px solid pink;
+  /* Estilos para el fondo del menú */
+  background-color: #cf74bc;
   /* Estilos para el título "Contactanos" */
   /* Estilos para los iconos grandes */
 }
@@ -309,6 +304,57 @@ main .titulo-horarios {
 .main-contactos .container-contactos .bigicon {
   font-size: 35px;
   color: #36A0FF;
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 768px) {
+  .parrafo {
+    font-size: 1.5rem;
+  }
+  .fondo1 {
+    margin-left: 0px;
+  }
+  .seccion1 {
+    max-width: 100%;
+  }
+  .footer-links {
+    width: 50%;
+  }
+  .galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-auto-rows: 250px;
+    margin: 10px;
+    gap: 10px;
+  }
+  .txt-derecho {
+    padding: 20px;
+    color: white;
+    border-radius: 10px;
+    font-family: "Cinzel", serif;
+  }
+}
+/*media pantallas grandes*/
+@media (max-width: 991px) {
+  .footer-row {
+    text-align: center;
+  }
+  .footer-links {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-auto-rows: 250px;
+    margin: 10px;
+    gap: 10px;
+  }
+  .galeria img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 
 /*# sourceMappingURL=estilo.css.map */
